@@ -6,7 +6,7 @@ This project is an example of using Katalon Studio with Android Espresso driver.
 - Install Gradle 7
 - Install JDK 8 (not JRE)
 
-### Steps
+### How to use
 
 1. Add `automationName: Espresso` in Project Settings/Desired Capabilities/Mobile/Android
 2. Open `New Test Case` and change `jdkLocation` with your JDK 8 location and application file path
@@ -26,3 +26,7 @@ Mobile.closeApplication()
 ```
 3. Run `New Test Case`
 4. Now you can start spy/record and run the test normally with Espresso driver
+
+### Migrate to other projects
+1. Copy and paster `Include` folder of this project to your project
+2. Follow step #1 to #5 of **How to use**
